@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+</head>
+<body>
+    <form action="/blogs/create" method="post">
+        Blog Title: <input type="text" name="title" required><br>
+        Blog Snippet: <input type="text" name="snippet" required><br>
+        Blog Content: <textarea name="body" id="" cols="30" rows="10" required></textarea>
+        <button type="submit">POST</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,3 @@
+This Folder Contains all the Static Files that can be used in the project !
+
+like css files, images etc !
